@@ -15,15 +15,15 @@ public class PinMove : MonoBehaviour
     }
     public void SetPinPositions()
     {
+        float startPosition = 10f;
+        float movementCoefficient = 4f;
+
         for (int i = 0; i < pins.Length; i++)
         {
             rectTransformPin = pins[i].GetComponent<RectTransform>();
             anchoredPinPosition = rectTransformPin.anchoredPosition;
-            anchoredPinPosition.y = (float)doorLock.DoorLockValuePins[i] * 4f + 10f;
+            anchoredPinPosition.y = doorLock.DoorLockValuePins[i] * movementCoefficient + startPosition;
             rectTransformPin.anchoredPosition = anchoredPinPosition;
         }
-        
     }
-
-
 }

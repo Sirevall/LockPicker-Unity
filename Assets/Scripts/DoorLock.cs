@@ -12,13 +12,13 @@ public class DoorLock : MonoBehaviour
     private int[] currentPinValues;
     private bool doorOpen = false;
     private PinMove pinMove;
+
     private void Start()
     {
         openDoorPinValuesText.text = string.Join(", ", openDoorPinValues);
         currentPinValues = new int[startPinValues.Length];
         SetDefaultValuePins();
         pinMove = GetComponent<PinMove>();
-        
     }
     private void Update()
     {
@@ -27,7 +27,9 @@ public class DoorLock : MonoBehaviour
     public int[] DoorLockValuePins
     {
         get
-        { return currentPinValues; }
+        {
+            return currentPinValues;
+        }
         set
         {
             currentPinValues = value;
@@ -35,13 +37,17 @@ public class DoorLock : MonoBehaviour
             pinMove.SetPinPositions();
         }
     }
-
     public bool GetStatusOpenDoor
     {
-        get { return doorOpen; }
-        set { doorOpen = value; }
+        get
+        {
+            return doorOpen;
+        }
+        set
+        {
+            doorOpen = value;
+        }
     }
-
     public void DisplayValueLockPins()
     {
         for (int i = 0; i < currentPinValues.Length; i++)

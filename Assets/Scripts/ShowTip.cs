@@ -4,22 +4,23 @@ using UnityEngine.EventSystems;
 
 public class ShowTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] private GameObject TipPanel;
+    [SerializeField] private GameObject tipPanel;
+
     private Text tipPanelText;
     private string descriptionText;
+
     private void Start()
     {
-        tipPanelText = TipPanel.GetComponentInChildren<Text>();
+        tipPanelText = tipPanel.GetComponentInChildren<Text>();
         descriptionText = GetComponent<Tool>().GetToolDescription;
     }
     public void OnPointerEnter(PointerEventData eventData)
     {
         tipPanelText.text = descriptionText;
-        TipPanel.SetActive(true);
+        tipPanel.SetActive(true);
     }
-
     public void OnPointerExit(PointerEventData eventData)
     {
-        TipPanel.SetActive(false);
+        tipPanel.SetActive(false);
     }
 }

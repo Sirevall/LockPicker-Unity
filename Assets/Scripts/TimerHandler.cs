@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System;
+﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +6,7 @@ public class TimerHandler : MonoBehaviour
 {
     [SerializeField] float timerTime;
     [SerializeField] Text timerText;
+
     private bool timerStop;
     private bool timerStart;
     private float timeLeft;
@@ -33,7 +32,10 @@ public class TimerHandler : MonoBehaviour
     }
     public float TimeLeft
     {
-        get { return timeLeft; }
+        get
+        {
+            return timeLeft;
+        }
     }
     public void StartTimer()
     {

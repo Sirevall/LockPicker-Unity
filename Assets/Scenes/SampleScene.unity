@@ -5103,8 +5103,8 @@ GameObject:
   - component: {fileID: 1458933108}
   - component: {fileID: 1458933107}
   - component: {fileID: 1458933106}
-  - component: {fileID: 1458933109}
   - component: {fileID: 1458933110}
+  - component: {fileID: 1458933109}
   m_Layer: 5
   m_Name: ScrewdriverButton
   m_TagString: Untagged
@@ -5175,7 +5175,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1458933109}
+      - m_Target: {fileID: 0}
         m_MethodName: UseToolClick
         m_Mode: 1
         m_Arguments:
@@ -5232,7 +5232,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458933104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3af72f00433fd894f838a9723c8b3a67, type: 3}
+  m_Script: {fileID: 11500000, guid: 5053b5fb33030874988333379615cde7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   toolPinValues: 0200000001000000fffffffffeffffff
@@ -5599,8 +5599,8 @@ GameObject:
   - component: {fileID: 1529604366}
   - component: {fileID: 1529604365}
   - component: {fileID: 1529604364}
-  - component: {fileID: 1529604367}
   - component: {fileID: 1529604368}
+  - component: {fileID: 1529604367}
   m_Layer: 5
   m_Name: PicklockButton
   m_TagString: Untagged
@@ -5671,7 +5671,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1529604367}
+      - m_Target: {fileID: 0}
         m_MethodName: UseToolClick
         m_Mode: 1
         m_Arguments:
@@ -5728,7 +5728,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1529604362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c7a8976a65b014db339026ee87b8b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5053b5fb33030874988333379615cde7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   toolPinValues: 01000000ffffffff0200000001000000
@@ -7250,8 +7250,8 @@ GameObject:
   - component: {fileID: 2094102159}
   - component: {fileID: 2094102158}
   - component: {fileID: 2094102157}
-  - component: {fileID: 2094102160}
   - component: {fileID: 2094102161}
+  - component: {fileID: 2094102160}
   m_Layer: 5
   m_Name: ClipButton
   m_TagString: Untagged
@@ -7322,7 +7322,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2094102160}
+      - m_Target: {fileID: 0}
         m_MethodName: UseToolClick
         m_Mode: 1
         m_Arguments:
@@ -7379,7 +7379,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2094102155}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6780e96b354cb244924112871a594e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5053b5fb33030874988333379615cde7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   toolPinValues: feffffffffffffff0100000000000000

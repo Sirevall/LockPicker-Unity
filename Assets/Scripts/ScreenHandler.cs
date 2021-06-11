@@ -8,6 +8,7 @@ public class ScreenHandler : MonoBehaviour
     [SerializeField] private GameObject controversialEndScreen;
     [SerializeField] private GameObject specialButton;
     [SerializeField] private float timeToEnableSpecialButton;
+
     private DoorLock doorLock;
     private GameObject currentScreen;
     private TimerHandler timerHandler;
