@@ -46,7 +46,9 @@
 ### Нестандартный выигрыш  
   
 За 2 секунды (время настраиваемое) до окончания таймера загорается кнопка, при нажатии на которую можно выиграть:  
+  
 ![image](https://user-images.githubusercontent.com/36508387/121678927-ff067e00-cae1-11eb-8d0a-acb6dce09149.png)  
   
 И появляется экран:  
+  
 ![image](https://user-images.githubusercontent.com/36508387/121678026-da5dd680-cae0-11eb-86ab-604ccce12c19.png)
