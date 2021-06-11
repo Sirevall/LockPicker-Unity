@@ -65,8 +65,6 @@ public class DoorLock : MonoBehaviour
     private void CheckOpenLock()
     {
         if (currentPinValues.SequenceEqual(openDoorPinValues))
-        {
             doorOpen = true;
-        }
     }
 }

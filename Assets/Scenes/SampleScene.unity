@@ -5175,7 +5175,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1458933109}
         m_MethodName: UseToolClick
         m_Mode: 1
         m_Arguments:
@@ -5253,7 +5253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7a7cd5a1ed6e44a84803903671625f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TipPanel: {fileID: 16667039}
+  tipPanel: {fileID: 16667039}
 --- !u!1 &1468173907
 GameObject:
   m_ObjectHideFlags: 0
@@ -5671,7 +5671,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1529604367}
         m_MethodName: UseToolClick
         m_Mode: 1
         m_Arguments:
@@ -5749,7 +5749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7a7cd5a1ed6e44a84803903671625f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TipPanel: {fileID: 16667039}
+  tipPanel: {fileID: 16667039}
 --- !u!1 &1555704031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7322,7 +7322,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2094102160}
         m_MethodName: UseToolClick
         m_Mode: 1
         m_Arguments:
@@ -7401,7 +7401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7a7cd5a1ed6e44a84803903671625f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TipPanel: {fileID: 16667039}
+  tipPanel: {fileID: 16667039}
 --- !u!1 &2119049351
 GameObject:
   m_ObjectHideFlags: 0
