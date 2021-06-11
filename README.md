@@ -7,7 +7,7 @@
   
 ### Правила  
   
-![image](https://user-images.githubusercontent.com/36508387/121672558-23f6f300-cada-11eb-99db-94048eba18c3.png)  
+![image](https://user-images.githubusercontent.com/36508387/121678871-ed24db00-cae1-11eb-8402-f888b89c472f.png)  
   
 ##  Геймплей  
   
@@ -46,7 +46,7 @@
 ### Нестандартный выигрыш  
   
   За 2 секунды (время настраиваемое) до окончания таймера загорается кнопка, при нажатии на которую можно выиграть:  
-![image](https://user-images.githubusercontent.com/36508387/121678081-ed70a680-cae0-11eb-93b2-53cf3b530bbc.png)  
+![image](https://user-images.githubusercontent.com/36508387/121678927-ff067e00-cae1-11eb-8d0a-acb6dce09149.png)  
   
   И появляется экран:  
 ![image](https://user-images.githubusercontent.com/36508387/121678026-da5dd680-cae0-11eb-86ab-604ccce12c19.png)
